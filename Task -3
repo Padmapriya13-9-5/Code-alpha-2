@@ -1,0 +1,153 @@
+Html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>portfolio</title>
+        <link rel="stylesheet" href="port.css">
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <a href ="#" class="logo">portfolio</a>
+            <nav class="navbar">
+                <a href ="#">HOME</a>
+                <a href ="personaldetails.html">ABOUT</a>
+                <a href ="skills.html">SKILLS</a>
+                <a href ="C:\Users\j.padmapriya\OneDrive\Desktop\project css\contact.html">CONTACT</a>
+            </nav>
+        </header>
+        <section class="home">
+            <div class="home-sci">
+                <a herf="#"><i class='bx bxl-facebook'></i></a>
+                <a herf="#"><i class='bx bxl-twitter'></i></a>
+                <a herf="https://www.linkedin.com/in/padmapriya-j-bab70a2aa"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <div class="home-content">
+                <h1>HI, I AM J.PADMAPRIYA</h1><br>
+                <h2><marque direct="right" behaviour="alternate">FRONTEND DEVELOPER</marque></h2>
+                <p>Enthusiastic beginner <u>Front-end developer</u> with the solid foundation in HTML,CSS and basics of javascript.Looking to apply my skills in creating responsive and engaging websites while growing my knowledge in Front-end development.</p>
+                <a href="#" class="btn">HIRE ME</a>
+                <a href="file:///C:/Users/j.padmapriya/OneDrive/Desktop/project%20css/resume.html" class="btn">DOWNLOAD CV</a>
+            </div>
+            <div class="profile">
+                <img src="C:\Users\j.padmapriya\OneDrive\Pictures\Saved Pictures\WhatsApp Image 2024-03-28 at 19.34.44_115ce1b7.jpg" alt="">
+            </div>
+        </section>
+    </body>
+</html>
+
+Css
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:aqua;
+}
+.header{
+    position:fixed;
+    width:100%;
+    padding:20px 10%;
+    background:black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 25px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+    pointer-events: none;
+}
+.navbar a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+.home{
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    padding: 10%;
+    justify-content: space-between;
+}
+.home-sci a:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.home-sci a{
+    transition:5s ease;
+    display:flex;
+    border: 2px solid;
+    width: 50px;
+    background-color:black;
+    height: 50px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content:center;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin: 20px ;
+}
+.home-content{
+    width: 500px;
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 600;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 600;
+}
+.home-content p{
+    font-size: 20px;
+    line-height: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.btn{
+    display: inline-flex;
+    border: 15px;
+    border-radius: 50px;
+    background-color: green;
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+.btn:hover{
+    background-color: darkblue;
+}
+.profile{
+    border: 5px solid;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+}
+.content{
+    align-items: center;
+    margin:50px;
+    justify-content: space-between;
+}
+p{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+Overview of the project 
+
